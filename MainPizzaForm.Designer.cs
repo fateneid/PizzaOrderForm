@@ -498,7 +498,9 @@
             this.Controls.Add(this.gbCrustType);
             this.Controls.Add(this.gbSize);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "MainPizzaForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Pizza Order";
             this.Load += new System.EventHandler(this.MainPizzaForm_Load);
             this.gbSize.ResumeLayout(false);
